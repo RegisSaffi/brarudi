@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main2Activity"
+    android:background="@color/background"
+    tools:showIn="@layout/activity_main2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/s_lectionnez_une_cat_gorie"
+        android:textSize="19sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorGrey"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/primus"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="7dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardUseCompatPadding="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_height="130dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/gradient"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="17dp"
+                android:layout_marginBottom="12dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:text="PRIMUS"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@mipmap/primus_bottle"
+            android:layout_gravity="end"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/primusic"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="#a04d2e"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="7dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_height="130dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:text="PRIMUSIC"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@mipmap/primusic"
+                android:layout_gravity="end"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent" />
+        </android.support.v7.widget.CardView>
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/league"-->
+            <!--android:layout_width="match_parent"-->
+            <!--app:cardBackgroundColor="#1b5f46"-->
+            <!--app:cardElevation="3dp"-->
+            <!--app:cardCornerRadius="7dp"-->
+            <!--android:clickable="true"-->
+            <!--android:focusable="true"-->
+            <!--app:cardUseCompatPadding="true"-->
+            <!--android:foreground="?attr/selectableItemBackground"-->
+            <!--android:layout_height="130dp">-->
+
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:background="@drawable/gradient"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TextView-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginLeft="17dp"-->
+                    <!--android:layout_marginBottom="12dp"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:textColor="@color/colorWhite"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="PRIMUS LEAGUE"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+            <!--</RelativeLayout>-->
+            <!--<ImageView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:src="@mipmap/football_player_primus_league"-->
+                <!--android:layout_gravity="end"-->
+                <!--android:layout_height="match_parent" />-->
+        <!--</android.support.v7.widget.CardView>-->
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/actualite"-->
+            <!--android:layout_width="match_parent"-->
+            <!--app:cardBackgroundColor="#fabc1c"-->
+            <!--app:cardElevation="3dp"-->
+            <!--app:cardCornerRadius="7dp"-->
+            <!--android:clickable="true"-->
+            <!--android:focusable="true"-->
+            <!--app:cardUseCompatPadding="true"-->
+            <!--android:foreground="?attr/selectableItemBackground"-->
+            <!--android:layout_height="130dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:background="@drawable/gradient"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TextView-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginLeft="17dp"-->
+                    <!--android:layout_marginBottom="12dp"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:textColor="@color/colorWhite"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="ACTUALITES"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+            <!--</RelativeLayout>-->
+            <!--<ImageView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:src="@mipmap/microphone_actualites"-->
+                <!--android:layout_gravity="end"-->
+
+                <!--android:layout_height="match_parent" />-->
+        <!--</android.support.v7.widget.CardView>-->
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

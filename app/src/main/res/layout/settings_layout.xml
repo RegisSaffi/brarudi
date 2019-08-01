@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/background"
+            android:theme="@style/toolbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="gone"
+            android:src="@mipmap/logobrarudi"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/langue"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/colorWhite"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/colorGrey"
+                    app:srcCompat="@drawable/ic_translate_black_24dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/changer_la_langue"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorGrey"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/noter"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/colorWhite"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/colorGrey"
+                    app:srcCompat="@drawable/ic_grade_black_24dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Noter l'application"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorGrey"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardUseCompatPadding="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/colorWhite"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/colorGrey"
+                    app:srcCompat="@drawable/ic_email_black_24dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="30dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/contactez_nous"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorGrey"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

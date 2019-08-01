@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Primus</string>
+    <string name="title_activity_main2">Kaze</string>
+    <string name="description">Primus n\'iteka ry\'uburundi \n\n
+Primus ifise ibice 4,5 % vy\'umwambiro
+Primus n\'inzoga ifise ifuro
+Ifise akanovera k\'ingano n\'ibigori.Primus ifise ibara ry\'umwakaka n\'ifuro ryerererana,ifise akanovera ntangere ikamara inyota kubayihereje.\n\n Primus n\'ikinyobwa gihingurigwa Mu gihugu c\'uburundi kuva Mu mwaka wi 1955, Primus n\'ikinyobwa rurangiranwa gikundwa n\'abarundi, gihuza incuti n\'abagenzi kigatera akanyamuneza kubacihereje,primus n\'iteka ry\'igihugu.\n\n
+Primus n\'ikinyobwa cikwije , kinyobwa cane mu gihugu, Primus kikaba arico gitunganya ibikorwa bikunze kuryohera cane abarundi nka PRIMUSIC na PRIMUS LIGUE.
+
+</string>
+    <string name="choose_language">Hitamwo ururimi</string>
+    <string name="s_lectionnez_une_cat_gorie">Hitamwo umurwi</string>
+    <string name="calendrier">INDANGAMINSI</string>
+    <string name="inscrivez_vous">Iyandikishe</string>
+    <string name="s_inscrire">Kwiyandikisha</string>
+    <string name="inscription_effectu_e_avec_succ_s">Kwiyandikisha vyakunze</string>
+    <string name="vote">HITAMWO</string>
+    <string name="settings">Gutunganya</string>
+    <string name="wait">Mutegereze…</string>
+    <string name="changer_la_langue">Hindura ururimi</string>
+    <string name="contactez_nous">Mwotwakura</string>
+    <string name="inscription">KWIYANDIKISHA</string>
+    <string name="actualites">AMAKURU</string>
+    <string name="nom">Izina</string>
+    <string name="pr_nom">Amatazirano</string>
+    <string name="date_de_naissance">Itariki yamavuko</string>
+    <string name="province">Intara</string>
+    <string name="sexe">Igitsina:</string>
+    <string name="male">Umugabo</string>
+    <string name="female">Umugore</string>
+    <string name="num_ro_de_t_l">Inomero.</string>
+    <string name="agree_to_our">Ndemeje gukurikiza</string>
+    <string name="terms"><![CDATA[<a href=\'https://www.brarudi.bi/primusic/\'>Amategeko namabwiriza bisabwe</a>]]></string>
+    <string name="vous_pouvez_toujours_change_la_langue_dans_reglages">Mushobora guhindura ururimi igihe cyose mu gutunganya</string>
+    <string name="nom_nom"><![CDATA[Amazina]]></string>
+    <string name="artist">Umucuraranzi</string>
+    <string name="news_desc_short">Mu kiganiro uwurongoye igisata kijejwe kudandaza no kumenyekanisha ikinyobwa PRIMUS yahaye abamenyeshamukuru kw\'igenekerezo rya 16 Rusama 2019, Dorine GATEKA ajejwe igisata co kudandaza no kumenyekanisha ikinyobwa PRIMUS muri BRARUDI yamenyesheje ko intumbero y\'iryo higanwa ari guteza imbere umuziki n\'abaririmvyi mu guha abarundi n\'abarundikazi hamwe nabo bose baba mu Burundi atanumwe akumiriwe bafise ingabirano yo kuririmba akaryo ko kumenyekanisha ibikorwa n\'ubuhinga bwabo mu muziki.\n\n
+
+Kwiyandikisha biroroshe, uca k’urubuga ngurukana bumenyi rwa BRARUDI, canke k’urubuga ngurukana bumenyi rwa Facebook rwitwa Primus Burundi canke k’ubuhinga bwa none bukoreshwa Mu ma  terefone ngendanwa bita aprikasiyo aho musanga aprikasiyo yitwa Primus Burundi canke ku munsi nyene PRIMUSIC izobasanga muntara zanyu.\n\n
+
+"Abaririmvyi babiri nibo bazotorwa muntara imwe imwe yose mugihugu havuyemwo Bujumbura Mairie na Bujumbura ziri hamwe hazotorwa abaririmvyi umunani 8. Bose hamwe azoba ari mirongo ine n’abatandatu 46 mugihugu cose. Hakazoca hazotorwamwo cumi na babiri 12 muribo havemwo kandi batandatu 6 bazoshika mu gice ca nyuma (finale) gitegekanijwe kw’itariki mirongo ibiri n’umunani 28 mukakaro umwaka wi 2019 aho uwambere azoronka ibahasha y\'imiliyoni mirongo ibiri na zitanu 25, uwa kabiri imiliyoni zitanu 5, uwa gatatu imiliyoni zitatu 3, uwa kane imiliyoni zibiri 2, uwa gatanu umuliyoni n\'ibihumbi majana atanu , uwa gatandatu umuliyoni 1, y’ amafaranga y\'amarundi" Nkuko vyashikirijwe na Gateka Dorine\n\n
+Aha mwomenya ko k\'uruhande rw\'abazoba bari mw\'ihiganwa hazoba hari abaririmvyi b\'ibihangange bo hano mugihugu cacu bazoba baserukira iryo higanwa Primusic kugira baryoshe ibirori.  Abo nabo akaba ari Sat-b na Big fizz. Hakazokwiyongerako umuririmvyi mpuzamakungu w\'umunyamahanga azoza kuryosha ibirori umunsi w\'igice ca nyuma (finale).
+</string>
+    <string name="news_title">Ishirahamwe BRARUDI ribicishije ku kinyobwa PRIMUS ryatanguje kumugaragaro ihiganwa rihuza abaririmvyi ryitiriwe PRIMUSIC</string>
+
+    <string name="title_activity_details">Byose</string>
+    <string name="action_settings">Setingi</string>
+    <string name="voted">Itora ryawe ryemewe</string>
+    <string name="mwatoye">Mwamaze gutora, ntimwemerewe gutora ubugira kabiri.</string>
+</resources>

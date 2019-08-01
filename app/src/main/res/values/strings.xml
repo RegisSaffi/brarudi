@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Primus</string>
+    <string name="title_activity_main2">Bienvenue</string>
+    <string name="description" translatable="true">
+Primus, Fierté Burundaise  \n\n
+
+Primus 4,5%
+Primus une bière Blonde au bon goût de houblon, de malt et de maïs tout en finesse et légèreté. Sa couleur Blonde Or pâle, sa mousse blanche, sa pétillante agréable et rafraichissante, sa texture très fluide avec un bel équilibre, très retenu, des saveurs en font une bière correspondant à une attente de rafraîchissement et de désaltération qu’elle satisfait avec douceur.\n\n Produite au BURUNDI depuis 1955, Primus est la bière emblématique de la BRARUDI, la plus consommée et appréciée par les burundais, elle est synonyme de sociabilité, joie de vivre, de fierté nationale. C’est la bière du pays par excellence ! Leader incontesté sur le marché, Primus est associée à de grandes campagnes célèbres dont notamment ‘’PRIMUSIC’’ et ‘’PRIMUS LIGUE’’,
+
+
+</string>
+    <string name="choose_language">Selectionnez une Langue</string>
+    <string name="s_lectionnez_une_cat_gorie">Sélectionnez une catégorie</string>
+    <string name="calendrier">CALENDRIER</string>
+    <string name="inscrivez_vous">Inscrivez vous</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="inscription_effectu_e_avec_succ_s">Inscription effectuée avec succès.</string>
+    <string name="vote">VOTEZ</string>
+    <string name="settings">Reglages</string>
+    <string name="wait">Attendez…</string>
+    <string name="changer_la_langue">Changer la langue</string>
+    <string name="contactez_nous">Contactez nous!</string>
+    <string name="inscription">INSCRIPTION</string>
+    <string name="actualites">ACTUALITES</string>
+    <string name="nom">Nom</string>
+    <string name="pr_nom">prénom</string>
+    <string name="date_de_naissance">Date de Naissance</string>
+    <string name="province">Province</string>
+    <string name="sexe">Sexe:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="num_ro_de_t_l">Numéro de Tél.</string>
+    <string name="agree_to_our">Accepter nos</string>
+    <string name="terms"><![CDATA[<a href=\'https://www.brarudi.bi/primusic/\'>conditions générales</a>]]></string>
+    <string name="vous_pouvez_toujours_change_la_langue_dans_reglages">Vous pouvez toujours changer la langue dans reglages</string>
+    <string name="nom_nom"><![CDATA[Nom&Prenom]]></string>
+    <string name="artist">Artiste</string>
+    <string name="news_desc_short">C’est en ce jeudi du 16 Mai 2019 que PRIMUS vient de lancer officiellement la 4eme édition du concours PRIMUSIC pour la promotion de la musique, lors d’une conférence de presse animée dans les enceintes de la Brarudi par la chargée  du produit Primus, Dorine Gateka.  L\'objectif de ce concours est de promouvoir les artistes locaux à travers cette compétition.\n\n
+
+« PRIMUSIC est une compétition dont le but principal est de faire grandir la musique burundaise, elle est ouverte à tout artiste et toute personne qui pense avoir le don de bien chanter. L\'enregistrement est simple, on peut soit le faire via le site web de la Brarudi, ou sur la page Facebook de Primus ou bien  sur l\'application Primus Burundi qu\'on peut télécharger facilement sur Google Playstore, on pourra même se faire enregistrer le jour des auditions et les enregistrements sont ouverts dès aujourd\'hui » a indiqué Dorine Gateka chargée de la marque Primus.\n\n
+La compétition est subdivisée en 4 phases, les auditions provinciales, les régionales, la demi-finale et la finale. "2 candidats seront sélectionnés dans chaque province sauf pour la province de Bujumbura Mairie et Bujumbura ou 8 candidats seront sélectionnés. Après les sélections qui se feront par le jury lors des provinciales, 12 candidats seront retenus parmi les 46 au niveau national après les régionales, ensuite 6 participeront à la finale qui est prévu le 28juillet 2019. Le premier aura une enveloppe de  25 millions, le deuxième 5 millions, le troisième 3 millions, le quatrième  2 millions, le cinquième 1 million cinq cent mille francs et le sixième 1 millions de francs Bu" a conclu Dorine Gateka\n\n
+Notons qu\'à part les compétiteurs il y\'aura des ambassadeurs de primusic qui vont agrémenter les festivités à savoir deux chanteurs locaux, Sat-b et Big fizzo, et un chanteur étranger jusque-là tenu comme surprise qui viendra pour couronner la finale.
+</string>
+    <string name="news_title">Lancement officielle du concours de promotion de la musique dénommé "PRIMUSIC" par la marque PRIMUS</string>
+    <string name="title_activity_details">Details</string>
+
+    <string name="action_settings">Réglages</string>
+    <string name="voted">Voté avec succés</string>
+
+    <string name="mwatoye">Vous avez déjà voté,vous ne pouvez pas voter deux fois.</string>
+
+
+</resources>
